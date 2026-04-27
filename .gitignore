@@ -1,0 +1,31 @@
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# датасет и выгрузки — качаются с Kaggle локально / в notebook
+2026-cv-competition/
+*.zip
+
+# обучение
+runs/
+*.pt
+*.pth
+*.onnx
+
+# сгенерированные сабмиты (пересоздаются ноутбуком)
+sample_submission*.csv
+solution_*run*.ipynb
+solution_local*.ipynb
+solution_ran.ipynb
+solution_test*.ipynb
+
+# build
+*.egg-info/
+
+# черновик ноутбука
+solution_executed.ipynb
+
+# OS
+Thumbs.db
+.DS_Store
